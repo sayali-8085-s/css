@@ -1,0 +1,14 @@
+button:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+    border: none;
+}
+.parent1 h1:first-child{
+    background-color: red;
+}
+.parent2 h1:last-child{
+    background-color: red;
+}
+.parent3 h1:nth-child(even){
+    background-color: pink;
+}

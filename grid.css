@@ -1,0 +1,29 @@
+.container{
+    background-color: blueviolet;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+    
+
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    background-color: green;
+    border: 1px solid black;
+}
+ .box1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+ }
+.box2{
+    grid-row-start: 2;
+    grid-row-end:4 ;
+}
+.box5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.box6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
