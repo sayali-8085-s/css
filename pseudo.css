@@ -12,3 +12,22 @@ button:hover{
 .parent3 h1:nth-child(even){
     background-color: pink;
 }
+.para::first-letter{
+    color: brown;
+    font-size: 50px;
+}
+.para::first-line{
+    font-weight: bold;
+}
+.name::after{
+    content: " singh";
+    color: brown;
+}
+.name::before{
+    content: "Hii i am ";
+    color: burlywood;
+    
+}
+input::placeholder{
+    color: brown;
+}
