@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: brown;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap:40px
+}
+nav label{
+    display:none ;
+}
+@media screen and (max-width:650px) {
+    nav label{
+        display: block;
+    }
+    nav ul{
+        display: none;
+    }
+}
+#click:checked~nav ul{
+    display: block;
+}
+
