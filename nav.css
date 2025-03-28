@@ -1,16 +1,23 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+
 nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: brown;
+    overflow: hidden;
+    
 }
 ul{
     display: flex;
     list-style: none;
-    gap:40px
+    gap:40px;
 }
 nav label{
-    display:none ;
+    display:none;
 }
 @media screen and (max-width:650px) {
     nav label{
@@ -18,9 +25,20 @@ nav label{
     }
     nav ul{
         display: none;
+        position: absolute;
+        top: 100px;
+        background-color: brown;
+        width: 100%;
     }
 }
-#click:checked~nav ul{
+ #click:checked~nav ul{
     display: block;
 }
 
+nav ul li{
+    padding: 10px;
+}
+
+#click{
+    display: none;
+} 
