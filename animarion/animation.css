@@ -6,8 +6,12 @@
 @keyframes bgcolor{
     0%{
         background-color: red;
+        transform: rotate(30deg);
+        transform: scale(1.5);
+        transform: translateX(200px)
     }
 
 25%{
     background-color: aqua;
+    transform: translateY(-200);
 }}

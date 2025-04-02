@@ -1,0 +1,32 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child{
+    height: 200px;
+    width: 200px;
+    background-image: url(dog.webp);
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation:move 5s ease infinite ;
+}
+@keyframes move{
+    0%{
+        transform: translate(0,0);
+        
+        
+        
+    }
+    25%{
+        transform: translate(100px,0);
+    }
+    50%{
+        transform: translate(100px,100px);
+    }
+    80%{
+        transform: translate(0,100px);
+    }
+    95%{
+        transform: translate(0,0)
+    }
+}
