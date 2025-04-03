@@ -2,6 +2,11 @@
     animation: name duration timing-function delay iteration-count direction fill-mode;
     animation: bgcolor 5s ease infinite;
     background-color: blue;
+     transform: color 3s ease; 
+     /* to make hover slow changesor we cn use all */
+}
+.class h1:hover{
+    color: blue;
 }
 @keyframes bgcolor{
     0%{
