@@ -5,7 +5,7 @@
      transform: color 3s ease; 
      /* to make hover slow changesor we cn use all */
 }
-.class h1:hover{
+.class h1:hover {
     color: blue;
 }
 @keyframes bgcolor{
