@@ -3,12 +3,12 @@
     animation: bgcolor 5s ease infinite;
     background-color: blue;
      transform: color 3s ease; 
-     /* to make hover slow changesor we cn use all */
+     /* to make hover slow changes or we cn use all */
 }
 .class h1:hover {
     color: blue;
 }
-@keyframes bgcolor{
+@keyframes  bgcolor{
     0%{
         background-color: red;
         transform: rotate(30deg);
