@@ -8,7 +8,7 @@
 .class h1:hover {
     color: blue;
 }
-@keyframes  bgcolor{
+@keyframes  bgcolor {
     0%{
         background-color: red;
         transform: rotate(30deg);
