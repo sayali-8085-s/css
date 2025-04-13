@@ -1,0 +1,21 @@
+.wrap{
+    display: grid;
+    grid-template-columns:repeat(4,auto) ;
+}
+.main{
+    border: 1px solid black;
+    background-color: red;
+    height: 200px;
+}
+@media screen and (min-width:400px) and(max-width:750px){
+    .main{
+        display: grid;
+        grid-template-columns:repeat(2,auto) ;
+    }
+}
+@media screen and (min-width:399px){
+    .main{
+        display: grid;
+        grid-template-columns:repeat(1,auto) ;
+    }
+}
