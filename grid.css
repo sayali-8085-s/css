@@ -2,9 +2,9 @@
     background-color: blueviolet;
     height: 600px;
     display: grid;
-    grid-template-columns: repeat(3,auto);
+    grid-template-columns: repeat(3,auto); 
     grid-template-rows: repeat(3,auto);
-    
+     gap:10px;
 
 }
 .box1,.box2,.box3,.box4,.box5,.box6{
